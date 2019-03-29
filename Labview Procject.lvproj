@@ -13,7 +13,16 @@
 		<Item Name="Flasher.vi" Type="VI" URL="../Flasher.vi"/>
 		<Item Name="GlobalFlash.vi" Type="VI" URL="../GlobalFlash.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Toggle1.vi" Type="VI" URL="../Toggle1.vi"/>
+		<Item Name="Toggle2.vi" Type="VI" URL="../Toggle2.vi"/>
+		<Item Name="Toggle3.vi" Type="VI" URL="../Toggle3.vi"/>
+		<Item Name="Toggle4.vi" Type="VI" URL="../Toggle4.vi"/>
+		<Item Name="Toggle5.vi" Type="VI" URL="../Toggle5.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
